@@ -1,16 +1,16 @@
 {
   "predictions": [
+    1,
     2,
     3,
     1,
     1,
     2,
     2,
-    3,
     1,
-    1,
+    2,
     2
   ],
-  "dev_accuracy": 0.0,
-  "config": "classifier_only"
+  "dev_accuracy": 1.0,
+  "config": "few_shot_ensemble"
 }
