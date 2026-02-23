@@ -23,9 +23,9 @@ PRETRAIN_DATA = BASE / "fixtures/tinystories_pretrain.txt"
 if not PRETRAIN_DATA.exists():
     PRETRAIN_DATA = ROOT / "part1/fixtures/tinystories_sample_5M.txt"
 
-QA_TRAIN = BASE / "fixtures/qa_train.json"
-QA_DEV   = BASE / "fixtures/qa_dev.json"
-QA_TEST  = BASE / "fixtures/qa_test.json"
+QA_TRAIN = BASE / "fixtures/squad_train.json"
+QA_DEV   = BASE / "fixtures/squad_dev.json"
+QA_TEST  = BASE / "fixtures/squad_test.json"
 OUTPUT_DIR = BASE / "outputs"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
