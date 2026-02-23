@@ -1,0 +1,11 @@
+{
+  "predictions": [
+    3,
+    2,
+    0,
+    2,
+    0
+  ],
+  "accuracy": 0.2,
+  "config": "quick"
+}
